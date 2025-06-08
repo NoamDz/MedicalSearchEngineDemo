@@ -127,39 +127,6 @@ To reclaim disk space you can safely delete raw images after vectors are stored.
 
 ---
 
-## 🛣️ Roadmap
-
-* [ ] **Multi-modal Fusion** – cross-encoder to blend text + image queries.
-* [ ] **DICOM Drag-and-Drop** – parse `.dcm` stacks directly.
-* [ ] **GPU-accelerated FAISS IVF** for million-scale latency < 50 ms.
-* [ ] **Clinician Study** – measure diagnostic time-saving vs. PubMed search.
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome—feel free to open an issue first to discuss major changes.
-Please run `black` + `isort` before committing.
-
----
-
-## 📜 Citation
-
-If you use this code or our pre-computed indices, please cite:
-
-```bibtex
-@software{delbari_2025_medclip,
-  author       = {Noam Delbari},
-  title        = {MedClip Search Engine},
-  year         = {2025},
-  url          = {https://github.com/<you>/medclip-search}
-}
-```
-
-For the underlying models & datasets, see `docs/references.bib`.
-
----
-
 ## ⚖️ License
 
 **MIT** – see [LICENSE](LICENSE) for details.
@@ -170,5 +137,4 @@ For the underlying models & datasets, see `docs/references.bib`.
 
 This project was developed as part of my BSc research in the **Tom Hope Lab** (Hebrew University of Jerusalem). Huge thanks to *Nir Mazor* for guidance and to the lab team for GPU compute and feedback.
 
-```
 
